@@ -5,6 +5,8 @@ DA GITHUB AL LOCALE:
  - Fare il clone del progetto
      git clone https://github.com/MartinaZan/VeryFL.git
  - Fare tutte le modifiche desiderate
+Nota: capire come aggiornare progetto locale dopo modifiche da parte
+di un altro account
 
 DAL LOCALE A GITHUB:
  - Spostarsi sulla cartella del progetto (VeryFL)
