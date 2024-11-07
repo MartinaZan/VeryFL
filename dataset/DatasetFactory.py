@@ -5,6 +5,8 @@ from .FashionMNIST import get_fashionmnist
 from .CIFAR10      import get_cifar10
 from .CIFAR100     import get_cifar100
 from .EMNIST       import get_emnist
+from .MyDataset import get_mydataset
+from .MyDatasetClassification import get_mydataset_classification
 
 logger = logging.getLogger(__name__)
 
@@ -32,6 +34,10 @@ class DatasetFactory:
             return get_cifar100(train = train)
         elif dataset == 'EMNIST':
             return get_emnist(train = train)
+        elif dataset == 'MyDataset':
+            return get_mydataset(train = train)
+        elif dataset == 'MyDatasetClassification':
+            return get_mydataset_classification(train = train)
         else:
             logger.error("DatasetFactory received an unknown dataset %s", dataset)
             raise Exception(f"Unrecognized Dataset: {dataset}")

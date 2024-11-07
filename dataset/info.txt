@@ -1,0 +1,8 @@
+Aggiornamenti del 05/11/2024 - Creazione di un dataset personalizzato
+
+- In questa cartella è stato aggiunto il file MyDataset.py, che legge una serie temporale da un txt (salvato nella cartella VeryFL) e la riarrangia in tensori X e Y con un approccio a sliding window che prende in considerazione un determinato numero di lag passati (order).
+- Nel file DatasetFactory è stato aggiunto il caso elif dataset == 'MyDataset' per creare il dataset personalizzato
+- MyDatasetClassification è fatto allo stesso modo, ma con i targets dati da numeri interi random
+
+Note: Bisogna capire come associare ad ogni nodo una serie differente (senza usare il DatasetSpliter che assegna dati in modo randomico).
+____________________________________________________________________________________________

@@ -7,6 +7,7 @@ from .algorithm import *
 logger = logging.getLogger(__name__)
 
 model = ["simpleCNN",
+         "Martina_simpleMLP",
          "SignAlexNet",
          "resnet18",
          "resnet34",
@@ -40,7 +41,30 @@ class FashionMNIST(BenchMark):
             'batch_size': 32,
             'class_num': 10,
             'data_folder': './data',
-            'communication_round': 200,
+            'communication_round': 10,
+            'non-iid': False,
+            'alpha': 1,
+        }
+        self.train_args = {
+            'optimizer': 'SGD',
+            'device': 'cuda',
+            'lr': 1e-2,
+            'weight_decay': 1e-5,  
+            'num_steps': 1,
+        }
+        self.algorithm = FedAvg()
+
+class MyDatasetClassification(BenchMark):
+    def __init__(self):
+        super(MyDatasetClassification,self).__init__('MyDatasetClassification')
+        self.global_args = {
+            'client_num': 10,
+            'model': 'Martina_simpleMLP',
+            'dataset': 'MyDatasetClassification',
+            'batch_size': 1,
+            'class_num': 9,
+            'data_folder': './data',
+            'communication_round': 10,
             'non-iid': False,
             'alpha': 1,
         }
@@ -108,6 +132,8 @@ class Sign(BenchMark):
 def get_benchmark(args: str) -> BenchMark:
     if(args == "FashionMNIST"):
         return FashionMNIST()
+    if(args == "MyDatasetClassification"):
+        return MyDatasetClassification()
     elif (args == "CIFAR10"):
         return CIFAR10()
     elif(args == "Sign"):
