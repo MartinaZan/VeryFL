@@ -1,0 +1,22 @@
+2024-11-05 17:17:01,210 __main__ INFO:Get benchmark MyDatasetClassification
+2024-11-05 17:17:01,210 config.benchmark INFO:Initializing Benchmark MyDatasetClassification
+2024-11-05 17:17:01,210 __main__ INFO:--training start--
+2024-11-05 17:17:01,210 __main__ INFO:Get Global args dataset: MyDatasetClassification, model: Martina_simpleMLP
+2024-11-05 17:17:01,210 task INFO:Constructing dataset MyDatasetClassification from dataset Factory
+2024-11-05 17:17:01,225 task INFO:Constructing Model from model factory with model Martina_simpleMLP and class_num 9
+2024-11-05 17:17:01,225 model.ModelFactory WARNING:ModelFactory received an unknown model Martina_simpleMLP
+2024-11-05 17:17:01,225 task INFO:Algorithm: {algorithm}
+2024-11-05 17:17:01,234 task INFO:Constructing dataloader with batch size 1, client_num: 10, non-iid: False
+2024-11-05 17:17:01,254 task INFO:No client need to add watermark
+2024-11-05 17:17:01,254 client.base.baseTrainer ERROR:Model missing
+2024-11-05 17:17:01,317 web3.RequestManager DEBUG:Making request. Method: eth_accounts
+2024-11-05 17:17:01,317 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 17:17:01,318 urllib3.connectionpool DEBUG:Resetting dropped connection: 127.0.0.1
+2024-11-05 17:17:01,618 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 17:17:01,620 urllib3.connectionpool DEBUG:Starting new HTTP connection (6): 127.0.0.1:8545
+2024-11-05 17:17:01,921 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 17:17:01,922 urllib3.connectionpool DEBUG:Starting new HTTP connection (7): 127.0.0.1:8545
+2024-11-05 17:17:02,224 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 17:17:02,225 urllib3.connectionpool DEBUG:Starting new HTTP connection (8): 127.0.0.1:8545
+2024-11-05 17:17:02,527 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 17:17:02,528 urllib3.connectionpool DEBUG:Starting new HTTP connection (9): 127.0.0.1:8545

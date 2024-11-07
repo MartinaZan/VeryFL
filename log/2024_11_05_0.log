@@ -1,0 +1,13 @@
+2024-11-05 16:13:24,237 __main__ INFO:Get benchmark MyDatasetClassification
+2024-11-05 16:13:24,237 config.benchmark ERROR:Unknown Benchmark MyDatasetClassification
+2024-11-05 16:13:24,299 web3.RequestManager DEBUG:Making request. Method: eth_accounts
+2024-11-05 16:13:24,299 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 16:13:24,299 urllib3.connectionpool DEBUG:Resetting dropped connection: 127.0.0.1
+2024-11-05 16:13:24,600 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 16:13:24,601 urllib3.connectionpool DEBUG:Starting new HTTP connection (6): 127.0.0.1:8545
+2024-11-05 16:13:24,903 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 16:13:24,904 urllib3.connectionpool DEBUG:Starting new HTTP connection (7): 127.0.0.1:8545
+2024-11-05 16:13:25,205 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 16:13:25,207 urllib3.connectionpool DEBUG:Starting new HTTP connection (8): 127.0.0.1:8545
+2024-11-05 16:13:25,508 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-11-05 16:13:25,510 urllib3.connectionpool DEBUG:Starting new HTTP connection (9): 127.0.0.1:8545

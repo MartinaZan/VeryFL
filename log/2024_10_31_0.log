@@ -1,0 +1,520 @@
+2024-10-31 11:02:18,198 __main__ INFO:Get benchmark FashionMNIST
+2024-10-31 11:02:18,198 config.benchmark INFO:Initializing Benchmark FashionMNIST
+2024-10-31 11:02:18,198 __main__ INFO:--training start--
+2024-10-31 11:02:18,198 __main__ INFO:Get Global args dataset: FashionMNIST, model: simpleCNN
+2024-10-31 11:02:18,198 task INFO:Constructing dataset FashionMNIST from dataset Factory
+2024-10-31 11:02:26,673 task INFO:Constructing Model from model factory with model simpleCNN and class_num 10
+2024-10-31 11:02:26,674 task INFO:Algorithm: {algorithm}
+2024-10-31 11:02:26,688 task INFO:Constructing dataloader with batch size 32, client_num: 10, non-iid: False
+2024-10-31 11:02:29,172 task INFO:No client need to add watermark
+2024-10-31 11:02:29,176 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:29,712 client.clients INFO:Epoch: 0, client id 1
+2024-10-31 11:02:29,712 client.clients INFO:Inner Epoch: 0 loss: 2.286208301148516 
+2024-10-31 11:02:30,252 client.clients INFO:client id 1 with inner epoch 0, Loss: 2.24092272644043, Acc: 18.82
+2024-10-31 11:02:30,252 client.clients INFO:client id 1 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:30,252 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:30,513 client.clients INFO:Epoch: 0, client id 2
+2024-10-31 11:02:30,513 client.clients INFO:Inner Epoch: 0 loss: 2.2871508674418672 
+2024-10-31 11:02:31,041 client.clients INFO:client id 2 with inner epoch 0, Loss: 2.2468659713745116, Acc: 18.52
+2024-10-31 11:02:31,041 client.clients INFO:client id 2 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:31,041 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:31,325 client.clients INFO:Epoch: 0, client id 3
+2024-10-31 11:02:31,326 client.clients INFO:Inner Epoch: 0 loss: 2.2872723011260336 
+2024-10-31 11:02:31,853 client.clients INFO:client id 3 with inner epoch 0, Loss: 2.247270097351074, Acc: 12.42
+2024-10-31 11:02:31,853 client.clients INFO:client id 3 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:31,853 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:32,179 client.clients INFO:Epoch: 0, client id 4
+2024-10-31 11:02:32,179 client.clients INFO:Inner Epoch: 0 loss: 2.284558312690004 
+2024-10-31 11:02:32,705 client.clients INFO:client id 4 with inner epoch 0, Loss: 2.2381469650268553, Acc: 19.900000000000002
+2024-10-31 11:02:32,705 client.clients INFO:client id 4 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:32,705 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:32,989 client.clients INFO:Epoch: 0, client id 5
+2024-10-31 11:02:32,989 client.clients INFO:Inner Epoch: 0 loss: 2.285738360374532 
+2024-10-31 11:02:33,519 client.clients INFO:client id 5 with inner epoch 0, Loss: 2.2406884567260743, Acc: 18.41
+2024-10-31 11:02:33,519 client.clients INFO:client id 5 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:33,519 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:33,780 client.clients INFO:Epoch: 0, client id 6
+2024-10-31 11:02:33,780 client.clients INFO:Inner Epoch: 0 loss: 2.2863462605374925 
+2024-10-31 11:02:34,305 client.clients INFO:client id 6 with inner epoch 0, Loss: 2.2448514434814455, Acc: 15.14
+2024-10-31 11:02:34,305 client.clients INFO:client id 6 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:34,305 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:34,566 client.clients INFO:Epoch: 0, client id 7
+2024-10-31 11:02:34,566 client.clients INFO:Inner Epoch: 0 loss: 2.2866034862842968 
+2024-10-31 11:02:35,092 client.clients INFO:client id 7 with inner epoch 0, Loss: 2.242646371459961, Acc: 16.35
+2024-10-31 11:02:35,092 client.clients INFO:client id 7 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:35,092 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:35,368 client.clients INFO:Epoch: 0, client id 8
+2024-10-31 11:02:35,368 client.clients INFO:Inner Epoch: 0 loss: 2.2859059635629047 
+2024-10-31 11:02:35,896 client.clients INFO:client id 8 with inner epoch 0, Loss: 2.241580644607544, Acc: 14.62
+2024-10-31 11:02:35,896 client.clients INFO:client id 8 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:35,896 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:36,186 client.clients INFO:Epoch: 0, client id 9
+2024-10-31 11:02:36,186 client.clients INFO:Inner Epoch: 0 loss: 2.285229922609126 
+2024-10-31 11:02:36,714 client.clients INFO:client id 9 with inner epoch 0, Loss: 2.2406394680023194, Acc: 14.95
+2024-10-31 11:02:36,714 client.clients INFO:client id 9 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:36,714 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:36,998 client.clients INFO:Epoch: 0, client id 10
+2024-10-31 11:02:36,999 client.clients INFO:Inner Epoch: 0 loss: 2.2834164627054903 
+2024-10-31 11:02:37,530 client.clients INFO:client id 10 with inner epoch 0, Loss: 2.2357559799194338, Acc: 13.750000000000002
+2024-10-31 11:02:37,530 client.clients INFO:client id 10 with inner epoch 0, Sign Accuarcy: -1.0
+2024-10-31 11:02:37,534 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:37,780 client.clients INFO:Epoch: 1, client id 1
+2024-10-31 11:02:37,780 client.clients INFO:Inner Epoch: 0 loss: 1.9439941936350884 
+2024-10-31 11:02:38,307 client.clients INFO:client id 1 with inner epoch 1, Loss: 1.5823163564682008, Acc: 39.32
+2024-10-31 11:02:38,307 client.clients INFO:client id 1 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:38,307 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:38,544 client.clients INFO:Epoch: 1, client id 2
+2024-10-31 11:02:38,544 client.clients INFO:Inner Epoch: 0 loss: 1.9365576213978706 
+2024-10-31 11:02:39,072 client.clients INFO:client id 2 with inner epoch 1, Loss: 1.5332159708023072, Acc: 40.89
+2024-10-31 11:02:39,072 client.clients INFO:client id 2 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:39,072 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:39,357 client.clients INFO:Epoch: 1, client id 3
+2024-10-31 11:02:39,357 client.clients INFO:Inner Epoch: 0 loss: 1.9386278828407855 
+2024-10-31 11:02:39,886 client.clients INFO:client id 3 with inner epoch 1, Loss: 1.7678330711364747, Acc: 34.29
+2024-10-31 11:02:39,886 client.clients INFO:client id 3 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:39,886 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:40,146 client.clients INFO:Epoch: 1, client id 4
+2024-10-31 11:02:40,147 client.clients INFO:Inner Epoch: 0 loss: 1.9382633446378912 
+2024-10-31 11:02:40,679 client.clients INFO:client id 4 with inner epoch 1, Loss: 1.6793508895874023, Acc: 31.16
+2024-10-31 11:02:40,679 client.clients INFO:client id 4 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:40,679 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:40,975 client.clients INFO:Epoch: 1, client id 5
+2024-10-31 11:02:40,975 client.clients INFO:Inner Epoch: 0 loss: 1.9249896153490593 
+2024-10-31 11:02:41,498 client.clients INFO:client id 5 with inner epoch 1, Loss: 1.6254836212158204, Acc: 36.71
+2024-10-31 11:02:41,498 client.clients INFO:client id 5 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:41,498 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:41,781 client.clients INFO:Epoch: 1, client id 6
+2024-10-31 11:02:41,781 client.clients INFO:Inner Epoch: 0 loss: 1.9420415334244991 
+2024-10-31 11:02:42,314 client.clients INFO:client id 6 with inner epoch 1, Loss: 1.7561464500427246, Acc: 38.05
+2024-10-31 11:02:42,314 client.clients INFO:client id 6 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:42,315 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:42,592 client.clients INFO:Epoch: 1, client id 7
+2024-10-31 11:02:42,592 client.clients INFO:Inner Epoch: 0 loss: 1.9502518589192248 
+2024-10-31 11:02:43,115 client.clients INFO:client id 7 with inner epoch 1, Loss: 1.611655213356018, Acc: 36.94
+2024-10-31 11:02:43,115 client.clients INFO:client id 7 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:43,115 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:43,392 client.clients INFO:Epoch: 1, client id 8
+2024-10-31 11:02:43,392 client.clients INFO:Inner Epoch: 0 loss: 1.9224228865288673 
+2024-10-31 11:02:43,919 client.clients INFO:client id 8 with inner epoch 1, Loss: 1.7099761489868164, Acc: 32.9
+2024-10-31 11:02:43,919 client.clients INFO:client id 8 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:43,919 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:44,195 client.clients INFO:Epoch: 1, client id 9
+2024-10-31 11:02:44,195 client.clients INFO:Inner Epoch: 0 loss: 1.9283214668010145 
+2024-10-31 11:02:44,729 client.clients INFO:client id 9 with inner epoch 1, Loss: 1.6804347887039184, Acc: 35.28
+2024-10-31 11:02:44,774 client.clients INFO:client id 9 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:44,774 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:45,084 client.clients INFO:Epoch: 1, client id 10
+2024-10-31 11:02:45,085 client.clients INFO:Inner Epoch: 0 loss: 1.9442897851162768 
+2024-10-31 11:02:45,612 client.clients INFO:client id 10 with inner epoch 1, Loss: 1.7228342536926269, Acc: 35.449999999999996
+2024-10-31 11:02:45,612 client.clients INFO:client id 10 with inner epoch 1, Sign Accuarcy: -1.0
+2024-10-31 11:02:45,613 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:45,918 client.clients INFO:Epoch: 2, client id 1
+2024-10-31 11:02:45,918 client.clients INFO:Inner Epoch: 0 loss: 1.4788240035797686 
+2024-10-31 11:02:46,467 client.clients INFO:client id 1 with inner epoch 2, Loss: 1.3487669862747191, Acc: 49.93
+2024-10-31 11:02:46,467 client.clients INFO:client id 1 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:46,467 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:46,722 client.clients INFO:Epoch: 2, client id 2
+2024-10-31 11:02:46,722 client.clients INFO:Inner Epoch: 0 loss: 1.471315197488095 
+2024-10-31 11:02:47,250 client.clients INFO:client id 2 with inner epoch 2, Loss: 1.4755132385253906, Acc: 44.82
+2024-10-31 11:02:47,250 client.clients INFO:client id 2 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:47,250 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:47,538 client.clients INFO:Epoch: 2, client id 3
+2024-10-31 11:02:47,538 client.clients INFO:Inner Epoch: 0 loss: 1.4836338060967467 
+2024-10-31 11:02:48,068 client.clients INFO:client id 3 with inner epoch 2, Loss: 1.8343534175872802, Acc: 35.67
+2024-10-31 11:02:48,068 client.clients INFO:client id 3 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:48,068 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:48,322 client.clients INFO:Epoch: 2, client id 4
+2024-10-31 11:02:48,322 client.clients INFO:Inner Epoch: 0 loss: 1.4850013718960133 
+2024-10-31 11:02:48,851 client.clients INFO:client id 4 with inner epoch 2, Loss: 1.6090334049224853, Acc: 35.47
+2024-10-31 11:02:48,851 client.clients INFO:client id 4 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:48,851 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:49,155 client.clients INFO:Epoch: 2, client id 5
+2024-10-31 11:02:49,155 client.clients INFO:Inner Epoch: 0 loss: 1.4686160772404773 
+2024-10-31 11:02:49,680 client.clients INFO:client id 5 with inner epoch 2, Loss: 1.3876670774459838, Acc: 49.419999999999995
+2024-10-31 11:02:49,680 client.clients INFO:client id 5 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:49,680 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:49,994 client.clients INFO:Epoch: 2, client id 6
+2024-10-31 11:02:49,994 client.clients INFO:Inner Epoch: 0 loss: 1.485678918501164 
+2024-10-31 11:02:50,523 client.clients INFO:client id 6 with inner epoch 2, Loss: 1.6005785846710205, Acc: 41.99
+2024-10-31 11:02:50,523 client.clients INFO:client id 6 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:50,524 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:50,792 client.clients INFO:Epoch: 2, client id 7
+2024-10-31 11:02:50,792 client.clients INFO:Inner Epoch: 0 loss: 1.493813340334182 
+2024-10-31 11:02:51,320 client.clients INFO:client id 7 with inner epoch 2, Loss: 1.6150881618499755, Acc: 40.150000000000006
+2024-10-31 11:02:51,320 client.clients INFO:client id 7 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:51,320 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:51,556 client.clients INFO:Epoch: 2, client id 8
+2024-10-31 11:02:51,556 client.clients INFO:Inner Epoch: 0 loss: 1.4664385724574962 
+2024-10-31 11:02:52,098 client.clients INFO:client id 8 with inner epoch 2, Loss: 1.8162526323318482, Acc: 36.61
+2024-10-31 11:02:52,098 client.clients INFO:client id 8 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:52,098 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:52,397 client.clients INFO:Epoch: 2, client id 9
+2024-10-31 11:02:52,397 client.clients INFO:Inner Epoch: 0 loss: 1.48853651957309 
+2024-10-31 11:02:52,921 client.clients INFO:client id 9 with inner epoch 2, Loss: 1.5472234214782714, Acc: 41.370000000000005
+2024-10-31 11:02:52,921 client.clients INFO:client id 9 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:52,921 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:53,184 client.clients INFO:Epoch: 2, client id 10
+2024-10-31 11:02:53,184 client.clients INFO:Inner Epoch: 0 loss: 1.4859023531700701 
+2024-10-31 11:02:53,711 client.clients INFO:client id 10 with inner epoch 2, Loss: 1.453066478919983, Acc: 42.05
+2024-10-31 11:02:53,711 client.clients INFO:client id 10 with inner epoch 2, Sign Accuarcy: -1.0
+2024-10-31 11:02:53,713 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:53,967 client.clients INFO:Epoch: 3, client id 1
+2024-10-31 11:02:53,967 client.clients INFO:Inner Epoch: 0 loss: 1.3606975947288757 
+2024-10-31 11:02:54,495 client.clients INFO:client id 1 with inner epoch 3, Loss: 1.3653777181625366, Acc: 51.160000000000004
+2024-10-31 11:02:54,495 client.clients INFO:client id 1 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:02:54,495 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:54,797 client.clients INFO:Epoch: 3, client id 2
+2024-10-31 11:02:54,797 client.clients INFO:Inner Epoch: 0 loss: 1.356454591167734 
+2024-10-31 11:02:55,324 client.clients INFO:client id 2 with inner epoch 3, Loss: 1.3270454878807068, Acc: 49.87
+2024-10-31 11:02:55,324 client.clients INFO:client id 2 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:02:55,324 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:55,607 client.clients INFO:Epoch: 3, client id 3
+2024-10-31 11:02:55,607 client.clients INFO:Inner Epoch: 0 loss: 1.3446995517674913 
+2024-10-31 11:02:56,138 client.clients INFO:client id 3 with inner epoch 3, Loss: 1.504905632686615, Acc: 45.9
+2024-10-31 11:02:56,138 client.clients INFO:client id 3 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:02:56,138 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:56,412 client.clients INFO:Epoch: 3, client id 4
+2024-10-31 11:02:56,412 client.clients INFO:Inner Epoch: 0 loss: 1.3617560622539926 
+2024-10-31 11:02:56,938 client.clients INFO:client id 4 with inner epoch 3, Loss: 1.3335188024520874, Acc: 47.699999999999996
+2024-10-31 11:02:56,938 client.clients INFO:client id 4 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:02:56,938 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:57,210 client.clients INFO:Epoch: 3, client id 5
+2024-10-31 11:02:57,210 client.clients INFO:Inner Epoch: 0 loss: 1.3513684821255663 
+2024-10-31 11:02:57,736 client.clients INFO:client id 5 with inner epoch 3, Loss: 1.713663553237915, Acc: 39.910000000000004
+2024-10-31 11:02:57,736 client.clients INFO:client id 5 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:02:57,736 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:58,039 client.clients INFO:Epoch: 3, client id 6
+2024-10-31 11:02:58,039 client.clients INFO:Inner Epoch: 0 loss: 1.3484702148336045 
+2024-10-31 11:02:58,567 client.clients INFO:client id 6 with inner epoch 3, Loss: 1.3987869997024536, Acc: 46.85
+2024-10-31 11:02:58,567 client.clients INFO:client id 6 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:02:58,567 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:58,846 client.clients INFO:Epoch: 3, client id 7
+2024-10-31 11:02:58,846 client.clients INFO:Inner Epoch: 0 loss: 1.3681289718506184 
+2024-10-31 11:02:59,375 client.clients INFO:client id 7 with inner epoch 3, Loss: 1.35347534866333, Acc: 51.970000000000006
+2024-10-31 11:02:59,375 client.clients INFO:client id 7 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:02:59,375 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:02:59,622 client.clients INFO:Epoch: 3, client id 8
+2024-10-31 11:02:59,622 client.clients INFO:Inner Epoch: 0 loss: 1.3504804769094954 
+2024-10-31 11:03:00,148 client.clients INFO:client id 8 with inner epoch 3, Loss: 1.381592603111267, Acc: 50.32
+2024-10-31 11:03:00,148 client.clients INFO:client id 8 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:03:00,148 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:00,396 client.clients INFO:Epoch: 3, client id 9
+2024-10-31 11:03:00,396 client.clients INFO:Inner Epoch: 0 loss: 1.3656503922761756 
+2024-10-31 11:03:00,923 client.clients INFO:client id 9 with inner epoch 3, Loss: 1.5225808628082276, Acc: 46.79
+2024-10-31 11:03:00,923 client.clients INFO:client id 9 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:03:00,923 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:01,206 client.clients INFO:Epoch: 3, client id 10
+2024-10-31 11:03:01,206 client.clients INFO:Inner Epoch: 0 loss: 1.3606515488726028 
+2024-10-31 11:03:01,737 client.clients INFO:client id 10 with inner epoch 3, Loss: 1.5831425729751587, Acc: 44.4
+2024-10-31 11:03:01,737 client.clients INFO:client id 10 with inner epoch 3, Sign Accuarcy: -1.0
+2024-10-31 11:03:01,738 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:02,025 client.clients INFO:Epoch: 4, client id 1
+2024-10-31 11:03:02,025 client.clients INFO:Inner Epoch: 0 loss: 1.2790369927249057 
+2024-10-31 11:03:02,556 client.clients INFO:client id 1 with inner epoch 4, Loss: 1.3311744531631469, Acc: 50.17
+2024-10-31 11:03:02,556 client.clients INFO:client id 1 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:02,556 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:02,790 client.clients INFO:Epoch: 4, client id 2
+2024-10-31 11:03:02,791 client.clients INFO:Inner Epoch: 0 loss: 1.2597506185795397 
+2024-10-31 11:03:03,313 client.clients INFO:client id 2 with inner epoch 4, Loss: 1.2357578847885131, Acc: 54.81
+2024-10-31 11:03:03,313 client.clients INFO:client id 2 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:03,313 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:03,542 client.clients INFO:Epoch: 4, client id 3
+2024-10-31 11:03:03,542 client.clients INFO:Inner Epoch: 0 loss: 1.280508262679932 
+2024-10-31 11:03:04,067 client.clients INFO:client id 3 with inner epoch 4, Loss: 1.2785206609725952, Acc: 54.81
+2024-10-31 11:03:04,067 client.clients INFO:client id 3 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:04,067 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:04,339 client.clients INFO:Epoch: 4, client id 4
+2024-10-31 11:03:04,339 client.clients INFO:Inner Epoch: 0 loss: 1.2645532666368688 
+2024-10-31 11:03:04,863 client.clients INFO:client id 4 with inner epoch 4, Loss: 1.3106972318649293, Acc: 52.44
+2024-10-31 11:03:04,863 client.clients INFO:client id 4 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:04,863 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:05,136 client.clients INFO:Epoch: 4, client id 5
+2024-10-31 11:03:05,136 client.clients INFO:Inner Epoch: 0 loss: 1.2509582375592374 
+2024-10-31 11:03:05,660 client.clients INFO:client id 5 with inner epoch 4, Loss: 1.219360546875, Acc: 54.75
+2024-10-31 11:03:05,660 client.clients INFO:client id 5 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:05,660 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:05,944 client.clients INFO:Epoch: 4, client id 6
+2024-10-31 11:03:05,944 client.clients INFO:Inner Epoch: 0 loss: 1.2669863745253136 
+2024-10-31 11:03:06,468 client.clients INFO:client id 6 with inner epoch 4, Loss: 1.2899284317016602, Acc: 52.5
+2024-10-31 11:03:06,468 client.clients INFO:client id 6 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:06,468 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:06,764 client.clients INFO:Epoch: 4, client id 7
+2024-10-31 11:03:06,764 client.clients INFO:Inner Epoch: 0 loss: 1.2619664818048477 
+2024-10-31 11:03:07,292 client.clients INFO:client id 7 with inner epoch 4, Loss: 1.3278150804519653, Acc: 48.4
+2024-10-31 11:03:07,292 client.clients INFO:client id 7 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:07,292 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:07,561 client.clients INFO:Epoch: 4, client id 8
+2024-10-31 11:03:07,561 client.clients INFO:Inner Epoch: 0 loss: 1.2584587386313906 
+2024-10-31 11:03:08,090 client.clients INFO:client id 8 with inner epoch 4, Loss: 1.7127418281555176, Acc: 44.22
+2024-10-31 11:03:08,090 client.clients INFO:client id 8 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:08,090 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:08,362 client.clients INFO:Epoch: 4, client id 9
+2024-10-31 11:03:08,362 client.clients INFO:Inner Epoch: 0 loss: 1.2609530116649383 
+2024-10-31 11:03:08,900 client.clients INFO:client id 9 with inner epoch 4, Loss: 1.2356454341888428, Acc: 54.50000000000001
+2024-10-31 11:03:08,900 client.clients INFO:client id 9 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:08,900 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:09,157 client.clients INFO:Epoch: 4, client id 10
+2024-10-31 11:03:09,157 client.clients INFO:Inner Epoch: 0 loss: 1.27271849741327 
+2024-10-31 11:03:09,681 client.clients INFO:client id 10 with inner epoch 4, Loss: 1.2750175090789795, Acc: 50.849999999999994
+2024-10-31 11:03:09,682 client.clients INFO:client id 10 with inner epoch 4, Sign Accuarcy: -1.0
+2024-10-31 11:03:09,683 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:09,965 client.clients INFO:Epoch: 5, client id 1
+2024-10-31 11:03:09,965 client.clients INFO:Inner Epoch: 0 loss: 1.20520015663289 
+2024-10-31 11:03:10,494 client.clients INFO:client id 1 with inner epoch 5, Loss: 1.1798417554855347, Acc: 58.02
+2024-10-31 11:03:10,494 client.clients INFO:client id 1 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:10,495 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:10,744 client.clients INFO:Epoch: 5, client id 2
+2024-10-31 11:03:10,744 client.clients INFO:Inner Epoch: 0 loss: 1.213901736951889 
+2024-10-31 11:03:11,272 client.clients INFO:client id 2 with inner epoch 5, Loss: 1.2455215753555298, Acc: 55.21
+2024-10-31 11:03:11,272 client.clients INFO:client id 2 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:11,272 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:11,590 client.clients INFO:Epoch: 5, client id 3
+2024-10-31 11:03:11,590 client.clients INFO:Inner Epoch: 0 loss: 1.2181729807498607 
+2024-10-31 11:03:12,121 client.clients INFO:client id 3 with inner epoch 5, Loss: 1.251299948978424, Acc: 53.61
+2024-10-31 11:03:12,121 client.clients INFO:client id 3 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:12,121 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:12,399 client.clients INFO:Epoch: 5, client id 4
+2024-10-31 11:03:12,399 client.clients INFO:Inner Epoch: 0 loss: 1.1920923019977325 
+2024-10-31 11:03:12,923 client.clients INFO:client id 4 with inner epoch 5, Loss: 1.2077042455673217, Acc: 54.769999999999996
+2024-10-31 11:03:12,923 client.clients INFO:client id 4 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:12,923 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:13,195 client.clients INFO:Epoch: 5, client id 5
+2024-10-31 11:03:13,195 client.clients INFO:Inner Epoch: 0 loss: 1.1884495305254104 
+2024-10-31 11:03:13,721 client.clients INFO:client id 5 with inner epoch 5, Loss: 1.2026820701599121, Acc: 54.54
+2024-10-31 11:03:13,721 client.clients INFO:client id 5 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:13,721 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:14,037 client.clients INFO:Epoch: 5, client id 6
+2024-10-31 11:03:14,037 client.clients INFO:Inner Epoch: 0 loss: 1.2113016850136695 
+2024-10-31 11:03:14,564 client.clients INFO:client id 6 with inner epoch 5, Loss: 1.261578882598877, Acc: 49.87
+2024-10-31 11:03:14,564 client.clients INFO:client id 6 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:14,564 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:14,852 client.clients INFO:Epoch: 5, client id 7
+2024-10-31 11:03:14,852 client.clients INFO:Inner Epoch: 0 loss: 1.2133599243899609 
+2024-10-31 11:03:15,384 client.clients INFO:client id 7 with inner epoch 5, Loss: 1.246365085029602, Acc: 54.93
+2024-10-31 11:03:15,384 client.clients INFO:client id 7 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:15,384 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:15,656 client.clients INFO:Epoch: 5, client id 8
+2024-10-31 11:03:15,656 client.clients INFO:Inner Epoch: 0 loss: 1.2129535592616874 
+2024-10-31 11:03:16,186 client.clients INFO:client id 8 with inner epoch 5, Loss: 1.1666423803329469, Acc: 57.709999999999994
+2024-10-31 11:03:16,186 client.clients INFO:client id 8 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:16,186 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:16,483 client.clients INFO:Epoch: 5, client id 9
+2024-10-31 11:03:16,483 client.clients INFO:Inner Epoch: 0 loss: 1.1988423888353592 
+2024-10-31 11:03:17,010 client.clients INFO:client id 9 with inner epoch 5, Loss: 1.2961396572113038, Acc: 53.690000000000005
+2024-10-31 11:03:17,010 client.clients INFO:client id 9 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:17,010 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:17,288 client.clients INFO:Epoch: 5, client id 10
+2024-10-31 11:03:17,288 client.clients INFO:Inner Epoch: 0 loss: 1.2109736873114363 
+2024-10-31 11:03:17,812 client.clients INFO:client id 10 with inner epoch 5, Loss: 1.1768650449752807, Acc: 58.01
+2024-10-31 11:03:17,812 client.clients INFO:client id 10 with inner epoch 5, Sign Accuarcy: -1.0
+2024-10-31 11:03:17,814 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:18,065 client.clients INFO:Epoch: 6, client id 1
+2024-10-31 11:03:18,065 client.clients INFO:Inner Epoch: 0 loss: 1.164093664034884 
+2024-10-31 11:03:18,597 client.clients INFO:client id 1 with inner epoch 6, Loss: 1.104145532798767, Acc: 60.46
+2024-10-31 11:03:18,597 client.clients INFO:client id 1 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:18,597 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:18,880 client.clients INFO:Epoch: 6, client id 2
+2024-10-31 11:03:18,880 client.clients INFO:Inner Epoch: 0 loss: 1.1537751133771652 
+2024-10-31 11:03:19,408 client.clients INFO:client id 2 with inner epoch 6, Loss: 1.1174930047988891, Acc: 61.12
+2024-10-31 11:03:19,408 client.clients INFO:client id 2 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:19,408 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:19,701 client.clients INFO:Epoch: 6, client id 3
+2024-10-31 11:03:19,701 client.clients INFO:Inner Epoch: 0 loss: 1.1883714883885486 
+2024-10-31 11:03:20,226 client.clients INFO:client id 3 with inner epoch 6, Loss: 1.1952213171005248, Acc: 55.58
+2024-10-31 11:03:20,226 client.clients INFO:client id 3 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:20,226 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:20,519 client.clients INFO:Epoch: 6, client id 4
+2024-10-31 11:03:20,520 client.clients INFO:Inner Epoch: 0 loss: 1.1342626882994429 
+2024-10-31 11:03:21,044 client.clients INFO:client id 4 with inner epoch 6, Loss: 1.1574997230529784, Acc: 58.98
+2024-10-31 11:03:21,044 client.clients INFO:client id 4 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:21,044 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:21,304 client.clients INFO:Epoch: 6, client id 5
+2024-10-31 11:03:21,304 client.clients INFO:Inner Epoch: 0 loss: 1.135196308823342 
+2024-10-31 11:03:21,828 client.clients INFO:client id 5 with inner epoch 6, Loss: 1.1798870252609253, Acc: 55.04
+2024-10-31 11:03:21,828 client.clients INFO:client id 5 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:21,828 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:22,090 client.clients INFO:Epoch: 6, client id 6
+2024-10-31 11:03:22,090 client.clients INFO:Inner Epoch: 0 loss: 1.1598448315833478 
+2024-10-31 11:03:22,614 client.clients INFO:client id 6 with inner epoch 6, Loss: 1.1538996438980103, Acc: 56.05
+2024-10-31 11:03:22,614 client.clients INFO:client id 6 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:22,614 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:22,888 client.clients INFO:Epoch: 6, client id 7
+2024-10-31 11:03:22,888 client.clients INFO:Inner Epoch: 0 loss: 1.130621590195818 
+2024-10-31 11:03:23,411 client.clients INFO:client id 7 with inner epoch 6, Loss: 1.1442168183326722, Acc: 58.42
+2024-10-31 11:03:23,412 client.clients INFO:client id 7 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:23,412 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:23,689 client.clients INFO:Epoch: 6, client id 8
+2024-10-31 11:03:23,689 client.clients INFO:Inner Epoch: 0 loss: 1.145134560288267 
+2024-10-31 11:03:24,220 client.clients INFO:client id 8 with inner epoch 6, Loss: 1.3301131162643434, Acc: 52.12
+2024-10-31 11:03:24,220 client.clients INFO:client id 8 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:24,220 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:24,509 client.clients INFO:Epoch: 6, client id 9
+2024-10-31 11:03:24,509 client.clients INFO:Inner Epoch: 0 loss: 1.1446892644496673 
+2024-10-31 11:03:25,037 client.clients INFO:client id 9 with inner epoch 6, Loss: 1.1839487325668334, Acc: 57.24
+2024-10-31 11:03:25,037 client.clients INFO:client id 9 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:25,037 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:25,285 client.clients INFO:Epoch: 6, client id 10
+2024-10-31 11:03:25,285 client.clients INFO:Inner Epoch: 0 loss: 1.1641702312738338 
+2024-10-31 11:03:25,810 client.clients INFO:client id 10 with inner epoch 6, Loss: 1.2336292198181151, Acc: 59.489999999999995
+2024-10-31 11:03:25,811 client.clients INFO:client id 10 with inner epoch 6, Sign Accuarcy: -1.0
+2024-10-31 11:03:25,812 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:26,114 client.clients INFO:Epoch: 7, client id 1
+2024-10-31 11:03:26,114 client.clients INFO:Inner Epoch: 0 loss: 1.1218710234190554 
+2024-10-31 11:03:26,648 client.clients INFO:client id 1 with inner epoch 7, Loss: 1.1223091053962708, Acc: 59.29
+2024-10-31 11:03:26,648 client.clients INFO:client id 1 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:26,648 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:26,899 client.clients INFO:Epoch: 7, client id 2
+2024-10-31 11:03:26,900 client.clients INFO:Inner Epoch: 0 loss: 1.1037032008171082 
+2024-10-31 11:03:27,426 client.clients INFO:client id 2 with inner epoch 7, Loss: 1.069696160697937, Acc: 62.64999999999999
+2024-10-31 11:03:27,426 client.clients INFO:client id 2 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:27,426 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:27,711 client.clients INFO:Epoch: 7, client id 3
+2024-10-31 11:03:27,711 client.clients INFO:Inner Epoch: 0 loss: 1.1084114154602618 
+2024-10-31 11:03:28,236 client.clients INFO:client id 3 with inner epoch 7, Loss: 1.1530478170394898, Acc: 58.58
+2024-10-31 11:03:28,236 client.clients INFO:client id 3 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:28,236 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:28,575 client.clients INFO:Epoch: 7, client id 4
+2024-10-31 11:03:28,575 client.clients INFO:Inner Epoch: 0 loss: 1.1148081155533487 
+2024-10-31 11:03:29,103 client.clients INFO:client id 4 with inner epoch 7, Loss: 1.107911430454254, Acc: 62.239999999999995
+2024-10-31 11:03:29,103 client.clients INFO:client id 4 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:29,103 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:29,342 client.clients INFO:Epoch: 7, client id 5
+2024-10-31 11:03:29,342 client.clients INFO:Inner Epoch: 0 loss: 1.0913268717679572 
+2024-10-31 11:03:29,877 client.clients INFO:client id 5 with inner epoch 7, Loss: 1.126802700996399, Acc: 58.160000000000004
+2024-10-31 11:03:29,877 client.clients INFO:client id 5 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:29,877 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:30,122 client.clients INFO:Epoch: 7, client id 6
+2024-10-31 11:03:30,122 client.clients INFO:Inner Epoch: 0 loss: 1.1172955676596215 
+2024-10-31 11:03:30,656 client.clients INFO:client id 6 with inner epoch 7, Loss: 1.1783250329017638, Acc: 54.76
+2024-10-31 11:03:30,656 client.clients INFO:client id 6 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:30,656 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:30,959 client.clients INFO:Epoch: 7, client id 7
+2024-10-31 11:03:30,959 client.clients INFO:Inner Epoch: 0 loss: 1.1022149302223896 
+2024-10-31 11:03:31,486 client.clients INFO:client id 7 with inner epoch 7, Loss: 1.2813094715118407, Acc: 51.849999999999994
+2024-10-31 11:03:31,486 client.clients INFO:client id 7 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:31,486 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:31,802 client.clients INFO:Epoch: 7, client id 8
+2024-10-31 11:03:31,802 client.clients INFO:Inner Epoch: 0 loss: 1.1006793050055808 
+2024-10-31 11:03:32,330 client.clients INFO:client id 8 with inner epoch 7, Loss: 1.0866568271636963, Acc: 62.22
+2024-10-31 11:03:32,330 client.clients INFO:client id 8 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:32,330 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:32,625 client.clients INFO:Epoch: 7, client id 9
+2024-10-31 11:03:32,625 client.clients INFO:Inner Epoch: 0 loss: 1.098739560297195 
+2024-10-31 11:03:33,150 client.clients INFO:client id 9 with inner epoch 7, Loss: 1.11657045879364, Acc: 57.79
+2024-10-31 11:03:33,150 client.clients INFO:client id 9 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:33,150 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:33,431 client.clients INFO:Epoch: 7, client id 10
+2024-10-31 11:03:33,431 client.clients INFO:Inner Epoch: 0 loss: 1.1172471731267077 
+2024-10-31 11:03:33,964 client.clients INFO:client id 10 with inner epoch 7, Loss: 1.075981770324707, Acc: 60.75000000000001
+2024-10-31 11:03:33,964 client.clients INFO:client id 10 with inner epoch 7, Sign Accuarcy: -1.0
+2024-10-31 11:03:33,966 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:34,252 client.clients INFO:Epoch: 8, client id 1
+2024-10-31 11:03:34,252 client.clients INFO:Inner Epoch: 0 loss: 1.0796470848169732 
+2024-10-31 11:03:34,781 client.clients INFO:client id 1 with inner epoch 8, Loss: 1.1657991216659547, Acc: 59.69
+2024-10-31 11:03:34,781 client.clients INFO:client id 1 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:34,781 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:35,069 client.clients INFO:Epoch: 8, client id 2
+2024-10-31 11:03:35,069 client.clients INFO:Inner Epoch: 0 loss: 1.0654359031864937 
+2024-10-31 11:03:35,597 client.clients INFO:client id 2 with inner epoch 8, Loss: 1.0562730695724487, Acc: 61.42999999999999
+2024-10-31 11:03:35,597 client.clients INFO:client id 2 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:35,597 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:35,886 client.clients INFO:Epoch: 8, client id 3
+2024-10-31 11:03:35,886 client.clients INFO:Inner Epoch: 0 loss: 1.0719517485258427 
+2024-10-31 11:03:36,415 client.clients INFO:client id 3 with inner epoch 8, Loss: 1.0357293325424195, Acc: 63.73
+2024-10-31 11:03:36,415 client.clients INFO:client id 3 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:36,415 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:36,676 client.clients INFO:Epoch: 8, client id 4
+2024-10-31 11:03:36,676 client.clients INFO:Inner Epoch: 0 loss: 1.0612939516914652 
+2024-10-31 11:03:37,204 client.clients INFO:client id 4 with inner epoch 8, Loss: 1.072064359664917, Acc: 63.129999999999995
+2024-10-31 11:03:37,205 client.clients INFO:client id 4 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:37,205 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:37,500 client.clients INFO:Epoch: 8, client id 5
+2024-10-31 11:03:37,500 client.clients INFO:Inner Epoch: 0 loss: 1.0352403664208474 
+2024-10-31 11:03:38,025 client.clients INFO:client id 5 with inner epoch 8, Loss: 1.0452140794754028, Acc: 61.71
+2024-10-31 11:03:38,025 client.clients INFO:client id 5 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:38,025 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:38,326 client.clients INFO:Epoch: 8, client id 6
+2024-10-31 11:03:38,326 client.clients INFO:Inner Epoch: 0 loss: 1.0699561720198774 
+2024-10-31 11:03:38,851 client.clients INFO:client id 6 with inner epoch 8, Loss: 1.0452763261795044, Acc: 62.63999999999999
+2024-10-31 11:03:38,851 client.clients INFO:client id 6 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:38,851 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:39,139 client.clients INFO:Epoch: 8, client id 7
+2024-10-31 11:03:39,139 client.clients INFO:Inner Epoch: 0 loss: 1.082296223082441 
+2024-10-31 11:03:39,671 client.clients INFO:client id 7 with inner epoch 8, Loss: 1.1363654977798463, Acc: 57.04
+2024-10-31 11:03:39,671 client.clients INFO:client id 7 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:39,671 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:39,927 client.clients INFO:Epoch: 8, client id 8
+2024-10-31 11:03:39,927 client.clients INFO:Inner Epoch: 0 loss: 1.0533684197258442 
+2024-10-31 11:03:40,455 client.clients INFO:client id 8 with inner epoch 8, Loss: 1.200583745574951, Acc: 55.720000000000006
+2024-10-31 11:03:40,455 client.clients INFO:client id 8 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:40,455 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:40,787 client.clients INFO:Epoch: 8, client id 9
+2024-10-31 11:03:40,787 client.clients INFO:Inner Epoch: 0 loss: 1.061910681585048 
+2024-10-31 11:03:41,312 client.clients INFO:client id 9 with inner epoch 8, Loss: 1.131278252696991, Acc: 59.74
+2024-10-31 11:03:41,312 client.clients INFO:client id 9 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:41,312 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:41,566 client.clients INFO:Epoch: 8, client id 10
+2024-10-31 11:03:41,566 client.clients INFO:Inner Epoch: 0 loss: 1.0787529625157093 
+2024-10-31 11:03:42,095 client.clients INFO:client id 10 with inner epoch 8, Loss: 1.110715472793579, Acc: 59.64
+2024-10-31 11:03:42,095 client.clients INFO:client id 10 with inner epoch 8, Sign Accuarcy: -1.0
+2024-10-31 11:03:42,097 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:42,385 client.clients INFO:Epoch: 9, client id 1
+2024-10-31 11:03:42,385 client.clients INFO:Inner Epoch: 0 loss: 1.0292957532913127 
+2024-10-31 11:03:42,916 client.clients INFO:client id 1 with inner epoch 9, Loss: 1.128607484817505, Acc: 58.550000000000004
+2024-10-31 11:03:42,916 client.clients INFO:client id 1 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:42,917 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:43,199 client.clients INFO:Epoch: 9, client id 2
+2024-10-31 11:03:43,199 client.clients INFO:Inner Epoch: 0 loss: 1.0308749878660162 
+2024-10-31 11:03:43,728 client.clients INFO:client id 2 with inner epoch 9, Loss: 1.0112018909454346, Acc: 63.33
+2024-10-31 11:03:43,728 client.clients INFO:client id 2 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:43,728 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:43,998 client.clients INFO:Epoch: 9, client id 3
+2024-10-31 11:03:43,999 client.clients INFO:Inner Epoch: 0 loss: 1.041105105204785 
+2024-10-31 11:03:44,529 client.clients INFO:client id 3 with inner epoch 9, Loss: 0.9901429822921753, Acc: 64.91
+2024-10-31 11:03:44,529 client.clients INFO:client id 3 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:44,529 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:44,790 client.clients INFO:Epoch: 9, client id 4
+2024-10-31 11:03:44,790 client.clients INFO:Inner Epoch: 0 loss: 1.0215100626996223 
+2024-10-31 11:03:45,317 client.clients INFO:client id 4 with inner epoch 9, Loss: 1.050403973197937, Acc: 61.61
+2024-10-31 11:03:45,317 client.clients INFO:client id 4 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:45,317 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:45,614 client.clients INFO:Epoch: 9, client id 5
+2024-10-31 11:03:45,614 client.clients INFO:Inner Epoch: 0 loss: 1.003609263516487 
+2024-10-31 11:03:46,140 client.clients INFO:client id 5 with inner epoch 9, Loss: 1.012854973602295, Acc: 61.61
+2024-10-31 11:03:46,140 client.clients INFO:client id 5 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:46,140 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:46,444 client.clients INFO:Epoch: 9, client id 6
+2024-10-31 11:03:46,444 client.clients INFO:Inner Epoch: 0 loss: 1.0394419327061226 
+2024-10-31 11:03:46,967 client.clients INFO:client id 6 with inner epoch 9, Loss: 1.0106697450637818, Acc: 63.31
+2024-10-31 11:03:46,967 client.clients INFO:client id 6 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:46,967 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:47,265 client.clients INFO:Epoch: 9, client id 7
+2024-10-31 11:03:47,265 client.clients INFO:Inner Epoch: 0 loss: 1.0226585690645462 
+2024-10-31 11:03:47,790 client.clients INFO:client id 7 with inner epoch 9, Loss: 1.0352678022384643, Acc: 60.92999999999999
+2024-10-31 11:03:47,790 client.clients INFO:client id 7 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:47,790 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:48,071 client.clients INFO:Epoch: 9, client id 8
+2024-10-31 11:03:48,071 client.clients INFO:Inner Epoch: 0 loss: 1.020718921689277 
+2024-10-31 11:03:48,596 client.clients INFO:client id 8 with inner epoch 9, Loss: 1.061736255645752, Acc: 62.77
+2024-10-31 11:03:48,596 client.clients INFO:client id 8 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:48,596 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:48,855 client.clients INFO:Epoch: 9, client id 9
+2024-10-31 11:03:48,856 client.clients INFO:Inner Epoch: 0 loss: 1.021681843602911 
+2024-10-31 11:03:49,386 client.clients INFO:client id 9 with inner epoch 9, Loss: 1.098088191986084, Acc: 60.45
+2024-10-31 11:03:49,386 client.clients INFO:client id 9 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:49,386 client.base.baseTrainer INFO:Constructing Optimizer SGD: lr 0.01, weight_decay: 1e-05
+2024-10-31 11:03:49,708 client.clients INFO:Epoch: 9, client id 10
+2024-10-31 11:03:49,708 client.clients INFO:Inner Epoch: 0 loss: 1.0292525741648166 
+2024-10-31 11:03:50,238 client.clients INFO:client id 10 with inner epoch 9, Loss: 1.0904185874938965, Acc: 62.5
+2024-10-31 11:03:50,238 client.clients INFO:client id 10 with inner epoch 9, Sign Accuarcy: -1.0
+2024-10-31 11:03:50,319 web3.RequestManager DEBUG:Making request. Method: eth_accounts
+2024-10-31 11:03:50,320 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-10-31 11:03:50,320 urllib3.connectionpool DEBUG:Resetting dropped connection: 127.0.0.1
+2024-10-31 11:03:50,621 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-10-31 11:03:50,622 urllib3.connectionpool DEBUG:Starting new HTTP connection (7): 127.0.0.1:8545
+2024-10-31 11:03:50,923 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-10-31 11:03:50,925 urllib3.connectionpool DEBUG:Starting new HTTP connection (8): 127.0.0.1:8545
+2024-10-31 11:03:51,226 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-10-31 11:03:51,228 urllib3.connectionpool DEBUG:Starting new HTTP connection (9): 127.0.0.1:8545
+2024-10-31 11:03:51,535 web3.providers.HTTPProvider DEBUG:Making request HTTP. URI: http://127.0.0.1:8545, Method: eth_accounts
+2024-10-31 11:03:51,537 urllib3.connectionpool DEBUG:Starting new HTTP connection (10): 127.0.0.1:8545
