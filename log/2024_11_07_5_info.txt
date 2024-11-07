@@ -1,0 +1,4 @@
+Dataset: FashionMNIST
+Numero di clients: 10
+Numero di epoche: 50
+Tempo impiegato: 0:06:39.654000
