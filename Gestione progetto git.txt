@@ -1,12 +1,11 @@
-DA GITHUB AL LOCALE:
+DA GITHUB AL LOCALE (1^ volta):
  - Copiare l'url del progetto da clonare
    (https://github.com/MartinaZan/VeryFL.git)
  - Spostarsi cartella desiderata
  - Fare il clone del progetto
      git clone https://github.com/MartinaZan/VeryFL.git
  - Fare tutte le modifiche desiderate
-Nota: capire come aggiornare progetto locale dopo modifiche da parte
-di un altro account
+__________________________________________________________________________
 
 DAL LOCALE A GITHUB:
  - Spostarsi sulla cartella del progetto (VeryFL)
@@ -27,3 +26,13 @@ DAL LOCALE A GITHUB:
  - Fornire username e password (Nota: non bisogna inserire la password
    dell'account, bensì un access token che si può trovare nella sezione
    "developer settings" del proprio account)
+
+DA GITHUB A LOCALE:
+ - Aggiungere tutte le modifiche fatte al progetto all'indice di staging
+   di Git, rendendole pronte per essere incluse nel prossimo commit
+     git add .
+ - Fare il commit delle modifiche aggiunte in precedenza nel repository
+   locale
+     git commit -m "Commit temporaneo per salvare le modifiche locali"
+ - Fare il pull del progetto
+     git pull origin main
