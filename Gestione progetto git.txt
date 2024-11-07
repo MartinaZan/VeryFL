@@ -1,0 +1,27 @@
+DA GITHUB AL LOCALE:
+ - Copiare l'url del progetto da clonare
+   (https://github.com/MartinaZan/VeryFL.git)
+ - Spostarsi cartella desiderata
+ - Fare il clone del progetto
+     git clone https://github.com/MartinaZan/VeryFL.git
+ - Fare tutte le modifiche desiderate
+
+DAL LOCALE A GITHUB:
+ - Spostarsi sulla cartella del progetto (VeryFL)
+ - Controllare i remote branches disponibili
+     git remote -v
+ - Se quello desiderato (https://github.com/MartinaZan/VeryFL.git)
+   non è presente, aggiungerlo
+     git remote add VeryFL https://github.com/MartinaZan/VeryFL.git
+ - Aggiungere tutte le modifiche fatte al progetto all'indice di staging
+   di Git, rendendole pronte per essere incluse nel prossimo commit
+     git add .
+ - Fare il commit delle modifiche aggiunte in precedenza nel repository
+   locale, aggiungendo un opportuno commento descrittivo
+     git commit -m "Descrizione delle modifiche"
+ - Fare il push sul repository remoto (VeryFL serve per selezionare il
+   branch su cui fare il push)
+     git push VeryFL main
+ - Fornire username e password (Nota: non bisogna inserire la password
+   dell'account, bensì un access token che si può trovare nella sezione
+   "developer settings" del proprio account)
