@@ -93,8 +93,6 @@ def plot_losses(client_losses):
 #####################################################################################################################################################################
 
 def read_logs(nome_file):
-    print("ciao")
-
     # Estrae le informazioni dal file di log
     dataset, start_time, end_time, num_clients = extract_information_from_file(nome_file)
 

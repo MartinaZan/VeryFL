@@ -1,0 +1,116 @@
+VeryFL:.
+¦   .gitignore : File che vengono ignorati durante il push su git
+¦   EURUSD.txt : Serie temporale di prova
+¦   Gestione progetto git.txt : Guida gestione github
+¦   package-lock.json : File per versioni e dipendenze
+¦   README.md : Descrizione del progetto
+¦   task.py : Gestisce il workflow di un task, costruendo dataset (DatasetFactory), modello
+¦             (ModelFactory) e gestendo l'algoritmo di FL
+¦   test.py : File per far partire il test. Richiama Task di task.py
+¦   unit_test.py : Contiene codice per testare serverSimulator.py, client.py e
+¦                  DataSpliter.py
+¦   
++---chainEnv : Cartella con file legati alla blockchain (solidity ecc)
+¦              ...
+¦               
++---chainfl : Gestione dell'interazione tra nodi
+¦             ...
+¦           
++---client : Dataloader e trainer per i singoli client
+¦   ¦   clients.py : Gestione del singolo client.
+¦   ¦                Questo file va sicuramente cambiato per passare da classificazione a
+¦   ¦                forecasting (!!!)
+¦   ¦   __init__.py : ...
+¦   ¦   
+¦   +---base : Classe base per tutti i dataloader e i trainer
+¦   ¦       baseDataloader.py : Classe base per i dataloader. Al suo interno dovrebbe
+¦   ¦                           esserci qualcosa legato allo shuffle
+¦   ¦       baseTrainer.py : Classe base per i trainer. Non dovrebbe necessitare di
+¦   ¦                        cambiamenti
+¦   ¦       __init__.py
+¦   ¦           
+¦   +---crypto_alg : ...
+¦   ¦   +---Differential Privacy
+¦   ¦           TODO.md
+¦   ¦           
+¦   +---trainer : Trainer che andrebbero studiati e cambiati per le nostre esigenze
+¦           fedproxTrainer.py
+¦           MoonTrainer.py
+¦           normalTrainer.py
+¦           SignTrainer.py
+¦           
++---config : parametri generali
+¦       algorithm.py : Definisce server, trainer e client
+¦       benchmark.py : Per ogni dataset benchmark, definisce parametri globali (client_num,
+¦                      model, dataset, batch_size, class_num, data_folder,
+¦                      communication_round, non-iid, alpha), parametri di addestramento
+¦                      (optimizer device, lr, weight_decay, num_steps) e algotirmo (es.
+¦                      FedAvg)
+¦       dataloader.py : Imposta solo num_workers = 4
+¦       dataset.py : Imposta solo dataset_file_path = "./data"
+¦       log.py : Gestione del file di log
+¦           
++---data
+¦   +---FashionMNIST : Immagini dataset FashionMNIST
+¦                      ...
+¦               
++---dataset : Classi per definizione dei vari dataset. In questa cartella è stato aggiunto
+¦   ¦         il file MyDataset.py, che legge una serie temporale da un txt (salvato nella
+¦   ¦         cartella VeryFL) e la riarrangia in tensori X e Y con un approccio a sliding
+¦   ¦         window che prende in considerazione un determinato numero di lag passati
+¦   ¦         (order). In modo analogo, MyDatasetClassification.py crea un dataset per la
+¦   ¦         classificazione (qui con i targets dati da numeri interi random)
+¦   ¦   CIFAR10.py
+¦   ¦   CIFAR100.py
+¦   ¦   DatasetFactory.py : Funzione per la creazione del dataset. Sono stati aggiunti i
+¦   ¦                       case per i nuovi dataset
+¦   ¦   DatasetSpliter.py : Classe per dividere il dataset. Dovremmo capire come come
+¦   ¦                       associare ad ogni nodo una serie differente (non in modo
+¦   ¦                       randomico)
+¦   ¦   EMNIST.py
+¦   ¦   FashionMNIST.py
+¦   ¦   MyDataset.py
+¦   ¦   MyDatasetClassification.py
+¦ 
++---img_src : Immagini di VeryFL
+¦       
++---log : Cartella con i file di log. Oltre ai log, al suo interno c'è il file read_logs.py ¦         che permette di estrarre informazioni e plot dal file di log
+¦       
++---model : Cartella che contiene i vari modelli
+¦   ¦   alexnet.py
+¦   ¦   martina_simple_mlp.py : Modello aggiunto da noi per la classificazione
+¦   ¦   ModelFactory.py
+¦   ¦   resnet.py
+¦   ¦   SignAlexNet.py
+¦   ¦   simple.py
+¦   ¦   simple_cnn.py
+¦   ¦   VGG.py
+¦   ¦   __init__.py
+¦           
++---server : Cartella con file per la gestione centralizzata del tutto
+¦   ¦   serverSimulator.py : ...
+¦   ¦   __init__.py : ...
+¦   ¦   
+¦   +---aggregation_alg : ...
+¦   ¦   ¦   aggFac.py : ...
+¦   ¦   ¦   fedavg.py : ...
+¦   ¦           
+¦   +---base : ...
+¦   ¦   ¦   baseAggregator.py : ...
+¦   ¦   ¦   __init__.py : ...
+¦   ¦           
+¦   +---defence_alg : ...
+¦   ¦       defence_util.py : ...
+¦           
++---util : ...
+¦   ¦   datasetSplit.py : ...
+¦   ¦   jsonFormat.py : ...
+¦   ¦   __init__.py : ...
+¦   ¦   
+¦   +---compression : ...
+¦   ¦       baseCompression.py
+¦   ¦       compressionUtil.py
+¦   ¦       tmp_compression.py
+¦   ¦       __init__.py
+¦           
++---VeryFL-venv : Cartella legata all'environment

@@ -58,21 +58,21 @@ class MyDatasetClassification(BenchMark):
     def __init__(self):
         super(MyDatasetClassification,self).__init__('MyDatasetClassification')
         self.global_args = {
-            'client_num': 10,
+            'client_num': 5,
             'model': 'Martina_simpleMLP',
             'dataset': 'MyDatasetClassification',
-            'batch_size': 1,
+            'batch_size': 12,
             'class_num': 9,
             'data_folder': './data',
-            'communication_round': 10,
+            'communication_round': 40,
             'non-iid': False,
             'alpha': 1,
         }
         self.train_args = {
             'optimizer': 'SGD',
             'device': 'cuda',
-            'lr': 1e-2,
-            'weight_decay': 1e-5,  
+            'lr': 1e-5,
+            'weight_decay': 1e-4,  
             'num_steps': 1,
         }
         self.algorithm = FedAvg()

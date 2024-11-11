@@ -4,11 +4,9 @@ class Martina_simpleMLP(nn.Module):
         super(Martina_simpleMLP, self).__init__()
         self.flatten = nn.Flatten()
         self.linear_relu_stack = nn.Sequential(
-            nn.Linear(3, 16),
+            nn.Linear(3, 5),
             nn.ReLU(),
-            nn.Linear(16, 32),
-            nn.ReLU(),
-            nn.Linear(32, class_num)
+            nn.Linear(5, class_num)
         )
         
     def forward(self, x):

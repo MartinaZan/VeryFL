@@ -1,0 +1,4 @@
+Dataset: MyDatasetClassification
+Numero di clients: 5
+Numero di epoche: 30
+Tempo impiegato: 0:00:11.116000
